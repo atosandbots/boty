@@ -1,0 +1,19 @@
+{
+  "name": "boty-mineflayer-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Mineflayer bot controlled by private messages from Atos_GGamer.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mineflayer": "^4.25.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-tool": "^1.2.0",
+    "minecraft-data": "^3.85.0"
+  }
+}
